@@ -37,11 +37,17 @@ export const Product = styled('div', {
         alignItems: 'center',
         justifyContent: 'space-between',
 
-        backgroundColor: 'rgba(0, 0, 0, 0.6)',
+        backgroundColor: '$gray700',
 
         transform: 'translateY(110%)',
         opacity: 0,
         transition: 'all 0.2s ease-in-out',
+
+        div: {
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 4,
+        },
 
         strong: {
         fontSize: '$lg',
