@@ -35,9 +35,28 @@ export const CartButtonContainer = styled('button', {
                 },
             },
         },
+        size: {
+            medium: {
+                width: "3rem",
+                height: "3rem",
+
+                svg: {
+                    fontSize: 24,
+                },
+            },
+            large: {
+                width: "3.5rem",
+                height: "3.5rem",
+
+                svg: {
+                    fontSize: 32,
+                },
+            },
+        },
     },
-    
+
     defaultVariants: {
         color: 'gray',
+        size: "medium",
     }
 })
